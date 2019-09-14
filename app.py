@@ -13,7 +13,7 @@ image1 = 'acled_Dashboard.jpg'
 image2 = 'midterm.png'
 textbody = 'The graph depicts fatalities groupby countries and attacks- focused on those attributed to terrorism.'
 sourceurl = 'https://www.acleddata.com'
-githublink = 'https://github.com/gportes24/midterm'
+githublink = 'https://github.com/gportes24/gpMidTerm'
 
 ########### Initiate the app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
