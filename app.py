@@ -9,7 +9,7 @@ import pandas as pd
 tabtitle = 'Fatalities by country based on attacks(terrorist groups)'
 myheading1 = 'Step Back! The doors are about to close!'
 myheading2 = 'Always a good option'
-image1 = 'acled_dashboard.jpg'
+image1 = 'acled_Dashboard.jpg'
 image2 = 'midterm.png'
 textbody = 'governments depend on ACLED for the latest reliable information on current conflict and disorder patterns.'
 sourceurl = 'https://www.acleddata.com'
