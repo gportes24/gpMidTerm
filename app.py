@@ -11,7 +11,7 @@ myheading1 = 'The Armed Conflict Location & Event Data Project (ACLED) is a disa
 myheading2 = 'Bringing clarity to crisis'
 image1 = 'acled_Dashboard.jpg'
 image2 = 'midterm.png'
-textbody = 'governments depend on ACLED for the latest reliable information on current conflict and disorder patterns.'
+textbody = 'The graph depicts fatalities groupby countries and attacks- focused on those attributed to terrorism.'
 sourceurl = 'https://www.acleddata.com'
 githublink = 'https://github.com/gportes24/midterm'
 
@@ -39,7 +39,7 @@ app.layout = html.Div(children=[
                 'height': '100px',
                 'border': 'thin blue solid',
                 'color': 'rgb(159, 78, 78)',
-                'backgroundColor': 'rgb(57, 83, 107)',
+                'backgroundColor': 'rgb(46, 45, 45)',
                 'textAlign': 'center',
                 }),
         ],className='six columns'),
