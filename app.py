@@ -8,7 +8,7 @@ import pandas as pd
 
 tabtitle = 'Fatalities by country based on attacks(terrorist groups)'
 myheading1 = 'The Armed Conflict Location & Event Data Project (ACLED) is a disaggregated conflict analysis and crisis mapping project'
-myheading2 = 'Bringing clarity to crisis'
+myheading2 = 'Bringing clarity to crisis!'
 image1 = 'acled_Dashboard.jpg'
 image2 = 'midterm.png'
 textbody = 'The graph depicts fatalities groupby countries and attacks- focused on those attributed to terrorism.'
