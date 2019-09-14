@@ -27,7 +27,7 @@ app.layout = html.Div(children=[
     html.H2(myheading2),
     html.Div([
         html.Div([
-            html.Img(src=app.get_asset_url(image1), style={'width': '50%', 'height': 'auto'})
+            html.Img(src=app.get_asset_url(image1), style={'width': '50%', 'height': '80%'})
         ],className='three columns'),
         html.Div([
             html.Img(src=app.get_asset_url(image2), style={'width': '80%', 'height': 'auto'}),
@@ -36,11 +36,11 @@ app.layout = html.Div(children=[
             html.Div(textbody, style={
                 'padding': '16px',
                 'font-size': '30px',
-                'height': '220px',
+                'height': '110px',
                 'border': 'thin blue solid',
                 'color': 'rgb(159, 78, 78)',
                 'backgroundColor': 'rgb(57, 83, 107)',
-                'textAlign': 'right',
+                'textAlign': 'center',
                 }),
         ],className='six columns'),
     ],className='twelve columns'),
