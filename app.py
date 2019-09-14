@@ -36,7 +36,6 @@ app.layout = html.Div(children=[
             html.Div(textbody, style={
                 'padding': '16px',
                 'font-size': '15px',
-                'width': '80px',
                 'height': '160px',
                 'border': 'thin blue solid',
                 'color': 'rgb(159, 78, 78)',
