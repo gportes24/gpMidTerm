@@ -34,9 +34,9 @@ app.layout = html.Div(children=[
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
-                'padding': '16px',
+                'padding': '12px',
                 'font-size': '15px',
-                'height': '160px',
+                'height': '120px',
                 'border': 'thin blue solid',
                 'color': 'rgb(159, 78, 78)',
                 'backgroundColor': 'rgb(46, 45, 45)',
