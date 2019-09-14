@@ -7,8 +7,8 @@ import pandas as pd
 ########### Define your variables ######
 
 tabtitle = 'Fatalities by country based on attacks(terrorist groups)'
-myheading1 = 'Step Back! The doors are about to close!'
-myheading2 = 'Always a good option'
+myheading1 = 'The Armed Conflict Location & Event Data Project (ACLED) is a disaggregated conflict analysis and crisis mapping project'
+myheading2 = 'Bringing clarity to crisis'
 image1 = 'acled_Dashboard.jpg'
 image2 = 'midterm.png'
 textbody = 'governments depend on ACLED for the latest reliable information on current conflict and disorder patterns.'
@@ -27,16 +27,16 @@ app.layout = html.Div(children=[
     html.H2(myheading2),
     html.Div([
         html.Div([
-            html.Img(src=app.get_asset_url(image1), style={'width': '50%', 'height': '80%'})
+            html.Img(src=app.get_asset_url(image1), style={'width': '100%', 'height': '80%'})
         ],className='three columns'),
         html.Div([
-            html.Img(src=app.get_asset_url(image2), style={'width': '80%', 'height': 'auto'}),
+            html.Img(src=app.get_asset_url(image2), style={'width': '100%', 'height': 'auto'}),
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
                 'padding': '16px',
-                'font-size': '30px',
-                'height': '110px',
+                'font-size': '15px',
+                'height': '200px',
                 'border': 'thin blue solid',
                 'color': 'rgb(159, 78, 78)',
                 'backgroundColor': 'rgb(57, 83, 107)',
