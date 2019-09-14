@@ -30,7 +30,7 @@ app.layout = html.Div(children=[
             html.Img(src=app.get_asset_url(image1), style={'width': '75%', 'height': '80%'})
         ],className='three columns'),
         html.Div([
-            html.Img(src=app.get_asset_url(image2), style={'width': '100%', 'height': '100'}),
+            html.Img(src=app.get_asset_url(image2), style={'width': '200%', 'height': '150'}),
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
