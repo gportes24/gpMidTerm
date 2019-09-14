@@ -30,13 +30,13 @@ app.layout = html.Div(children=[
             html.Img(src=app.get_asset_url(image1), style={'width': '75%', 'height': '80%'})
         ],className='three columns'),
         html.Div([
-            html.Img(src=app.get_asset_url(image2), style={'width': '160%', 'height': '150'}),
+            html.Img(src=app.get_asset_url(image2), style={'width': '120%', 'height': '150'}),
         ],className='three columns'),
         html.Div([
             html.Div(textbody, style={
                 'padding': '12px',
                 'font-size': '15px',
-                'height': '120px',
+                'height': '90px',
                 'border': 'thin blue solid',
                 'color': 'rgb(159, 78, 78)',
                 'backgroundColor': 'rgb(46, 45, 45)',
